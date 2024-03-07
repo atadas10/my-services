@@ -60,9 +60,8 @@
 				<div class="elementor-element elementor-element-bb27f87 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="bb27f87" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 								<div class="elementor-image" >
-									<a href="https://www.atanuconsulting.in/home">
-										<img src="images/favicon.png" class="attachment-large size-large wp-image-308820" alt="logo">
-									</a>
+									<img src="images/favicon.png" class="attachment-large size-large wp-image-308820" alt="logo">
+									<a href="https://www.atanuconsulting.in/home"></a>
 								</div>
 				</div>
 				</div>
