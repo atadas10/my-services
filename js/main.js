@@ -616,7 +616,7 @@ jQuery(window).resize(function () {
 function tbdemo_change_position() {
   if ( !jQuery("body").hasClass("tbdemo-editor-mode") ) {
     if (jQuery(window).width() <= 860) {
-      jQuery("body").css("padding-top", "128px");
+      jQuery("body").css("padding-top", "10px");
     }
   }
 }
