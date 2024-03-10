@@ -94,11 +94,20 @@
 				<div class="elementor-element elementor-element-90ee404 elementor-align-right elementor-widget elementor-widget-button" data-id="90ee404" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-						<a class="elementor-button elementor-button-link elementor-size-sm" href="mailto:atanu10.yt@gmail.com">
+						<a class="elementor-button elementor-button-link elementor-size-sm" href="mailto:reach.atanuconsulting@gmail.com" onclick="setSubject()">
 							<span class="elementor-button-content-wrapper">
 								<span class="elementor-button-text">Let's Chat</span>
 							</span>
 						</a>
+
+					<script>
+						function setSubject() {
+							var subject = "Review Resume - [Your Name Here]"; // You can replace "[Your Name Here]" with the actual name if available
+							var mailtoLink = "mailto:reach.atanuconsulting@gmail.com?subject=" + encodeURIComponent(subject);
+							window.location.href = mailtoLink;
+						}
+					</script>
+						
 					</div>
 					<div class="flash">Free Resume Review</div>
 				</div>
