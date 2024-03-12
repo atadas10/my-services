@@ -35,7 +35,7 @@
 
   .flash {
 	color: red;
-	font: 30px;
+	font-size: 20px !important;
 	font-weight: bold;
 	animation: flash 2s linear infinite;
   }
@@ -96,7 +96,7 @@
 					<div class="elementor-button-wrapper">
 						<a class="elementor-button elementor-button-link elementor-size-sm">
 							<span class="elementor-button-content-wrapper">
-								<span class="elementor-button-text" onclick="openPopup()">Let's Chat</span>
+								<span class="elementor-button-text" href="mailto:reach.atanuconsulting@gmail.com" onclick="setSubject()">Let's Chat</span>
 							</span>
 						</a>
 						
@@ -133,6 +133,21 @@
 				<a href="https://www.atanuconsulting.in/work-experience" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;">Learn About Me</a>
 			</div>
 		</div>
+		
+		
+			<div style="text-align: center; margin-top: 20px; ">
+					<div class="elementor-button-wrapper" style="text-align: center;">
+						<a style="display: inline-block; padding: 10px 20px 10px; background-color: #156F5B; color: #fff; text-decoration: none; border-radius: 5px;">
+							<span class="elementor-button-content-wrapper">
+								<span class="elementor-button-text" onclick="openPopup()"> 
+									Send Your Resume 
+								</span>
+							</span>
+						</a>
+						
+					</div>
+					<div class="flash">Free Resume Review</div>
+				</div>
 
 <!-- End Here-->
 			
@@ -436,15 +451,15 @@
 
 <script type="text/javascript" src="js/main.js" id="tbdemo-main-js"></script>
 
-<!-- Scrip to start chat>
+<!-- Scrip to start chat-->
 <script>
 		function setSubject() {
-			var subject = "Review Resume - [Your Name Here]"; // You can replace "[Your Name Here]" with the actual name if available
+			var subject = "Career Counselling Info - [Your Name Here]"; // You can replace "[Your Name Here]" with the actual name if available
 			var mailtoLink = "mailto:reach.atanuconsulting@gmail.com?subject=" + encodeURIComponent(subject);
 			window.location.href = mailtoLink;
 		}
 </script>
-<--End of chat script-->
+<!--End of chat script-->
 <!-- Popup for email & resume-->
 <script>
     function openPopup() {
